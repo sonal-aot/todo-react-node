@@ -3,7 +3,7 @@ import Index from "../pages";
 
 const AppRouter = () => {
     return (
-        <Router>
+        <Router basename="/todo-react-node">
             <Routes>
                 <Route path="/" element={<Index />} />
             </Routes>
