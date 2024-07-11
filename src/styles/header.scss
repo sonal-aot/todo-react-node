@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1312px;
+
+    .topHeader {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #d0d5dd;
+        align-items: center;
+        gap: 12px;
+
+        h2 {
+            font-family: "Montserrat";
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            text-align: left;
+        }
+
+        button {
+            width: 143px;
+            padding: 10px 20px;
+            gap: 8px;
+            border: none;
+            border-radius: 5px;
+            background-color: #0c39c7;
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .lowHeader {
+        display: flex;
+        padding-top: 32px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    width: 578px;
+    padding: 10px 14px;
+    gap: 8px;
+    border-radius: 8px;
+}
+input[type="search"] {
+    width: 574px;
+    appearance: none;
+    border: none;
+}
+
+input[type="search"]:focus-visible {
+    border: none;
+    outline: none;
+}
+
+input[type="search"]::placeholder {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.dropBox {
+    max-width: 223px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    label {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.07px;
+        text-align: left;
+        color: #09174a;
+        white-space: nowrap;
+    }
+
+    select {
+        width: 156px;
+        padding: 10px 14px;
+        gap: 10px;
+        border-radius: 5px;
+        border: 1px solid #cecece;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    select:focus-visible {
+        border: 1px solid #cecece;
+        outline: none;
+    }
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    width:160px;
+    gap: 2px;
+}

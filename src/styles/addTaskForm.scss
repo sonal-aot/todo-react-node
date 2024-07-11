@@ -1,0 +1,121 @@
+#addTaskForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 654px;
+    position: absolute;
+    top: 79px;
+    left: 409px;
+    padding: 40px;
+    gap: 32px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid #cecece;
+
+    label {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: left;
+    }
+}
+
+.formHead {
+    display: flex;
+    max-width: 574px;
+    padding: 0px 0px 24px 0px;
+    // gap: 0px;
+    border-bottom: 1px solid lightgrey;
+    justify-content: space-between;
+
+    h1 {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.38px;
+        text-align: left;
+    }
+}
+
+.formBody {
+    max-width: 574px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.formTitle,
+.formDescription,
+.formDate {
+    width: 574px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    label {
+        align-self: start;
+    }
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 574px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+}
+
+input[tpe="text"]::placeholder,
+textarea::placeholder {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+.formFooter {
+    max-width: 574px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.closeBtn {
+    max-width: 96px;
+    padding: 10px 20px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #7e7e7f;
+}
+
+.submitBtn{
+    max-width: 115px;
+    padding: 10px 20px;
+    white-space: nowrap;
+    gap: 8px;
+    border-radius: 5px;
+    background-color: #0c39c7;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #fff;
+}
